@@ -4,7 +4,7 @@ body{
 .card{
     max-width: 550px;
     min-width: 350px;
-    background: white;
+    background: #9da20a;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -48,5 +48,7 @@ body{
 .icons{
     border: 1px solid #656565;
     margin-top: 20px;
+    padding: 10px;
+    background: #eeeeee;
 
 }
