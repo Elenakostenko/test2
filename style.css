@@ -59,7 +59,9 @@ input[type="text"], input[type="password"]{
 
 }
 .dws-input:nth-child(2)::before{
+    font-family: "Font Awesome 5 Free";
     content: "\f023";
+    color: blue;
 }
 
 .dws-input:hover::before{
