@@ -49,8 +49,9 @@ input[type="text"], input[type="password"]{
     color: #373737;
 }
 
-.dws-input::before{
-    font-family: "Font Awesome 5 Free";
+.dws-user::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     content: "\f007";
     position: absolute;
     font-size: 30px;
@@ -58,9 +59,13 @@ input[type="text"], input[type="password"]{
     color: blue;
 
 }
-.dws-input:nth-child(2)::before{
-    font-family: "Font Awesome 5 Free";
+.dws-pass::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
     content: "\f023";
+    position: absolute;
+    font-size: 30px;
+    padding: 10px 0 0 7px;
     color: blue;
 }
 
